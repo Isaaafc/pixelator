@@ -3,8 +3,6 @@ import numpy as np
 import imageio
 import argparse
 from PIL import Image
-from scipy.ndimage import zoom
-from skimage.transform import rescale, downscale_local_mean, resize
 
 def convert_color(img, greyscale, levels):
     """
